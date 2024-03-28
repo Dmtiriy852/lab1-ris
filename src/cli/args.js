@@ -5,6 +5,7 @@ const parseArgs = () => {
     for (const rawFlag of args){
         const [, flag, value] = rawFlag
         console.log(`${flag} is ${value}`)
+        
     }
 };
 
